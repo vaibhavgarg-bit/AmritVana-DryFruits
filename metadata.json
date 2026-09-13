@@ -1,0 +1,6 @@
+{
+  "name": "AmritVana - Premium Dry Fruits & Nuts",
+  "description": "AmritVana is a luxury dry fruits e-commerce platform offering 100% natural, farm-fresh almonds, cashews, walnuts, pistachios, dates, raisins, curated gift boxes and custom mixes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
