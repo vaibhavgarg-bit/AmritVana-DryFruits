@@ -19,6 +19,7 @@ import { PRODUCT_NUTRITION, REVIEWS } from '../data/coupons';
 import { ProductCard } from '../components/common/ProductCard';
 import { useShop } from '../context/ShopContext';
 import { CustomerReview } from '../types';
+import SEO from "../SEO";
 
 export const ProductDetailPage: React.FC = () => {
   const { 
@@ -68,6 +69,12 @@ export const ProductDetailPage: React.FC = () => {
   const isWishlisted = isInWishlist(product.id);
   const nutrition = PRODUCT_NUTRITION[product.category] || PRODUCT_NUTRITION['almonds'];
   const relatedProducts = PRODUCTS.filter((p) => p.category === product.category && p.id !== product.id).slice(0, 4);
+
+  // Dynamic SEO for individual product pages
+  const productSEO = {
+    title: `${product.name} | Buy Online | AmritVana`,
+    description: `Buy ${product.name} online from AmritVana. Explore premium quality ${product.name.toLowerCase()} with fresh packaging, multiple pack sizes and delivery across India.`,
+  };
 
   // Frequently bought bundle
   const bundleItem2 = PRODUCTS.find((p) => p.id === 'cashew-w180-king-jumbo') || PRODUCTS[4];
@@ -149,6 +156,11 @@ export const ProductDetailPage: React.FC = () => {
   };
 
   return (
+    <>
+    <SEO
+      title={productSEO.title}
+      description={productSEO.description}
+    />
     <div className="bg-[#FDF8F3] min-h-screen py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -765,5 +777,6 @@ export const ProductDetailPage: React.FC = () => {
 
       </div>
     </div>
+    </>
   );
 };
