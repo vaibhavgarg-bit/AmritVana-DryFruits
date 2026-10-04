@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amritvana-dryfruits.vercel.app/sitemap.xml
