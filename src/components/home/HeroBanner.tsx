@@ -31,13 +31,15 @@ export const HeroBanner: React.FC = () => {
 
             {/* Main Headline */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.15]">
-              Naturally Sourced,<br />
-              <span className="text-[#FDE68A]">Purely Good.</span>
+             Premium Dry Fruits<br />
+             <span className="text-[#FDE68A]">Online in India.</span>
             </h1>
 
             {/* Description */}
             <p className="text-sm sm:text-base text-white/85 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Experience the crunch of health with our hand-picked Kashmiri Mamra Almonds (50%+ natural oil content), W180 Jumbo Cashews, and sacred Madinah Ajwa Dates. Unadulterated purity in every bite.
+              Discover premium dry fruits online in India with AmritVana. Explore
+              hand-picked Mamra almonds, W180 cashews, premium walnuts, pistachios,
+              raisins and Ajwa dates, carefully selected for quality and freshness.
             </p>
 
             {/* CTA Buttons */}

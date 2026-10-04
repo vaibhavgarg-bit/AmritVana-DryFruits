@@ -9,39 +9,28 @@ import { WhyChooseUs } from '../components/home/WhyChooseUs';
 import { NutNutritionQuiz } from '../components/home/NutNutritionQuiz';
 import { CustomerReviewsSection } from '../components/home/CustomerReviewsSection';
 import { BlogPreview } from '../components/home/BlogPreview';
+import SEO from "../SEO";
 
 export const HomePage: React.FC = () => {
   return (
-    <div className="space-y-0">
-      {/* 1. Hero Section */}
-      <HeroBanner />
+      <>
+      <SEO
+        title="Dry Fruits Online India | Premium Dry Fruits | AmritVana"
+        description="Buy premium dry fruits online in India from AmritVana. Explore almonds, cashews, walnuts, pistachios, raisins and dates."
+      />
 
-      {/* 2. Shop by Category */}
-      <CategoryGrid />
-
-      {/* 3. Best Sellers with Weight Picker */}
-      <BestSellers />
-
-      {/* 4. Limited Harvest Flash Deals & Countdown */}
-      <FlashDeals />
-
-      {/* 5. Curated Combos & Gift Hampers */}
-      <CuratedCombos />
-
-      {/* 6. Custom Mix Interactive Promo */}
-      <CustomMixPromo />
-
-      {/* 7. Why Choose Us (Quality & Sourcing Pillars) */}
-      <WhyChooseUs />
-
-      {/* 8. Interactive Ayurvedic Nutrition Quiz */}
-      <NutNutritionQuiz />
-
-      {/* 9. Verified Customer Reviews */}
-      <CustomerReviewsSection />
-
-      {/* 10. Nutrition Blog & Buying Guides */}
-      <BlogPreview />
-    </div>
+      <div className="space-y-0">
+        <HeroBanner />
+        <CategoryGrid />
+        <BestSellers />
+        <FlashDeals />
+        <CuratedCombos />
+        <CustomMixPromo />
+        <WhyChooseUs />
+        <NutNutritionQuiz />
+        <CustomerReviewsSection />
+        <BlogPreview />
+      </div>
+    </>
   );
 };
