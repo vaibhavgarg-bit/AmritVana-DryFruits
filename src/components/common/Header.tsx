@@ -70,7 +70,7 @@ export const Header: React.FC = () => {
             </span>
             <span className="hidden sm:inline text-[#EEDCC6]/40">•</span>
             <span className="flex items-center gap-1 hover:text-white">
-              <PhoneCall className="w-3 h-3 text-[#D97706]" /> +91 98765 43210
+              <PhoneCall className="w-3 h-3 text-[#D97706]" /> +91 8818010127
             </span>
           </div>
         </div>
