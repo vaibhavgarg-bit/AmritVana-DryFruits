@@ -49,7 +49,7 @@ export const Header: React.FC = () => {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2 text-center sm:text-left">
           <div className="flex items-center gap-2 font-medium">
             <span className="bg-[#D97706]/30 text-[#FDE68A] px-2.5 py-0.5 rounded-full text-[11px] font-semibold flex items-center gap-1">
-              <Sparkles className="w-3 h-3 text-[#FBBF24]" /> FRESH HARVEST 2026
+              <Sparkles className="w-3 h-3 text-[#FBBF24]" /> FRESH HARVEST 2026 <br> Natural Pure Dry Fruits</br>
             </span>
             <span className="hidden md:inline text-[#FAF5EE]/90">
               Get flat 15% OFF above ₹999 with coupon <span className="font-bold text-[#FBBF24] underline underline-offset-2">AMRIT15</span>
