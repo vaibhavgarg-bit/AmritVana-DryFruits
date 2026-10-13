@@ -195,12 +195,12 @@ export const Footer: React.FC = () => {
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#D97706] shrink-0 mt-0.5" />
                 <span>
-                  AmritVana Orchards & Roastery, Srinagar, J&K / Indiranagar, Bengaluru, India
+                  AmritVana Orchards & Roastery, Bilaspur, Haryana , Bharat/India
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#D97706] shrink-0" />
-                <span>+91 98765 43210</span>
+                <span>+91 8818010127</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-[#D97706] shrink-0" />
