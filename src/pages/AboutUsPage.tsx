@@ -9,6 +9,12 @@ import { IMAGES } from '../assets/images';
 export const AboutUsPage: React.FC = () => {
   const { navigate } = useShop();
 
+  <>
+         <SEO 
+         title="Buy Dry Fruits Online in India"
+         />
+  </>
+
   return (
     <div className="bg-[#FDF8F3] min-h-screen py-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
