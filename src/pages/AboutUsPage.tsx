@@ -36,6 +36,9 @@ export const AboutUsPage: React.FC = () => {
             <p className="text-xs sm:text-base text-stone-200 leading-relaxed max-w-2xl font-normal">
               AmritVana was born with a singular, uncompromising purpose: to bring unadulterated, unpolished, and high-oil-content dry fruits from heirloom mountain orchards directly into modern homes.
             </p>
+            <p className="text-xs sm:text-base text-stone-200 leading-relaxed max-w-2xl font-normal">
+              Buy Dry Fruits Online in India.
+            </p>
           </div>
         </div>
 
